@@ -1,10 +1,32 @@
+/* @license
+ * MyFonts Webfont Build ID 2663574, 2013-10-11T17:40:37-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2663574
+ * Licensed pageviews: 10,000
+ * Webfonts copyright:  Copyright (c)2012 Talbot Type. All Rights Reserved
+ *
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/28a496");
+@font-face {font-family: 'Kaleko205-Heavy';src: url('webfonts/28A496_9_0.eot');src: url('webfonts/28A496_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/28A496_9_0.woff') format('woff'),url('webfonts/28A496_9_0.ttf') format('truetype');}
+
+
 body { margin: 0; padding: 0; }
 h1, h2, p { margin: 0; padding: 0; }
 .container-fluid { width: 100%; background: url(../images/bg-red-tile.png) repeat-x, url(../images/bg-dissect.gif) center top no-repeat; background-blend-mode: multiply; }
 .container { max-width: 960px; margin: 0 auto; min-height: 600px; border: 1px dotted #fff; }
-.eyebrow { margin: 120px 0 110px 10px; font: 300 13px/15px 'Helvetica Neue', Helvetica, sans-serif; letter-spacing: .03em; color: #555; }
+.eyebrow { margin: 120px 0 110px 10px; font: 300 13px/15px 'Helvetica Neue', Helvetica, sans-serif; letter-spacing: .03em; }
 .eyebrow p { background-color: rgba(255, 255, 2555, .9); width: 140px; }
 .eyebrow .rule { margin: 24px 0; width: 12px; border-top: 1px solid #555; display: block; }
 .banner { min-height: 140px; padding-top: 40px; color: #fff; }
-.banner h1 { font: 700 62px/60px 'Helvetica Neue', Helvetica, sans-serif; text-transform: uppercase; width: 300px; margin: 0 10px; float: left; }
-.banner p { font: 300 16px/18px 'Helvetica Neue', Helvetica, sans-serif; letter-spacing: .05em; width: 300px; margin: 4px 10px 0 10px; float: left; }
+.banner h1 { font: 700 62px/60px 'Kaleko205-Heavy', 'Helvetica Neue', Helvetica, sans-serif; text-transform: uppercase; width: 300px; margin: 0 10px; float: left; }
+.banner p { font: 400 16px/18px 'Helvetica Neue', Helvetica, sans-serif; letter-spacing: .03em; width: 300px; margin: 4px 10px 0 10px; float: left; }
