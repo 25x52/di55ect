@@ -15,20 +15,20 @@
 */
 
 
-/* @import must be at top of file, otherwise CSS will not work */
-/*@import url("//hello.myfonts.net/count/28a496");
-*/@font-face {font-family: 'Kaleko205-Heavy';src: url('../webfonts/28A496_9_0.eot');src: url('../webfonts/28A496_9_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/28A496_9_0.woff') format('woff'),url('../webfonts/28A496_9_0.ttf') format('truetype');}
-
-
+@font-face {font-family: 'Kaleko205-Heavy';src: url('../webfonts/28A496_9_0.eot');src: url('../webfonts/28A496_9_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/28A496_9_0.woff') format('woff'),url('../webfonts/28A496_9_0.ttf') format('truetype'); }
 body { margin: 0; padding: 0; }
 h1, h2, p { margin: 0; padding: 0; }
 .container-fluid { width: 100%; background: url(../images/bg-red-tile.png) repeat-x, url(../images/bg-dissect.gif) center top no-repeat; background-blend-mode: multiply; }
 .container { max-width: 960px; margin: 0 auto; height: auto; min-height: 600px; display: block; overflow: hidden; }
 .eyebrow { margin: 120px 0 110px 10px; font: 300 13px/15px 'Helvetica Neue', Helvetica, sans-serif; letter-spacing: .03em; }
-.eyebrow p { background-color: rgba(255, 255, 2555, .9); width: 140px; }
-.eyebrow .rule { margin: 24px 0; width: 12px; border-top: 1px solid #555; display: block; }
+.eyebrow p { background-color: rgba(255, 255, 2555, .9); width: 140px; padding-left: 20px; }
+.eyebrow .rule { margin: 24px 0 24px -10px; width: 10px; border-top: 1px solid #555; display: block; }
 .banner { min-height: 140px; padding-top: 40px; color: #fff; margin: 4px 10px 120px; }
 .banner h1 { font: 700 62px/60px 'Kaleko205-Heavy', 'Helvetica Neue', Helvetica, sans-serif; text-transform: uppercase; width: 300px; margin: 0 10px; float: left; }
-.banner p { font: 400 16px/18px 'Helvetica Neue', Helvetica, sans-serif; letter-spacing: .03em; width: 300px; 10px; float: left; }
-.module-wrapper { margin: 0 auto; height: auto; display: block; overflow: hidden; text-align: center; }
-.module { width: 300px; height: 400px; padding: 10px; margin: 20px -4px 20px 0; display: inline-block; text-align: left; }
+.banner p { font: 400 16px/18px 'Helvetica Neue', Helvetica, sans-serif; letter-spacing: .03em; width: 300px; margin: 0 10px; float: left; }
+.module-wrapper { margin: 0 auto; height: auto; overflow: hidden; text-align: center; }
+.module { width: 300px; height: 400px; padding: 10px; margin: 20px -4px 20px 0; display: inline-block; text-align: left; vertical-align: top; }
+.module h2 { font: 700 20px/20px'Helvetica Neue', Helvetica, sans-serif; min-height: 48px; }
+.module p { font: 400 14px/140% 'Helvetica Neue', Helvetica, sans-serif; color: #444; padding-right: 20px; margin-bottom: 18px; }
+.module .location { font-size: 10px; text-transform: uppercase; letter-spacing: .05em; }
+.btn { line-height: 50px; height: 50px; padding: 0 60px; margin: 18px 0; background-color: #c00; color: #fff; display: inline-block; text-decoration: none; }
