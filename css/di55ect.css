@@ -18,6 +18,7 @@
 @font-face {font-family: 'Kaleko205-Heavy';src: url('../webfonts/28A496_9_0.eot');src: url('../webfonts/28A496_9_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/28A496_9_0.woff') format('woff'),url('../webfonts/28A496_9_0.ttf') format('truetype'); }
 body { margin: 0; padding: 0; }
 h1, h2, p { margin: 0; padding: 0; }
+a { color: #c00; font-weight: 700; text-decoration: none; }
 .container-fluid { width: 100%; background: url(../images/bg-red-tile.png) repeat-x, url(../images/bg-dissect.gif) center top no-repeat; background-blend-mode: multiply; }
 .container { max-width: 960px; margin: 0 auto; height: auto; min-height: 600px; display: block; overflow: hidden; }
 .eyebrow { margin: 120px 0 110px 10px; font: 300 13px/15px 'Helvetica Neue', Helvetica, sans-serif; letter-spacing: .03em; }
@@ -26,6 +27,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .banner { min-height: 140px; padding-top: 40px; color: #fff; margin: 4px 10px 120px; }
 .banner h1 { font: 700 62px/60px 'Kaleko205-Heavy', 'Helvetica Neue', Helvetica, sans-serif; text-transform: uppercase; width: 300px; margin: 0 10px; float: left; }
 .banner p { font: 400 16px/18px 'Helvetica Neue', Helvetica, sans-serif; letter-spacing: .03em; width: 300px; margin: 0 10px; float: left; }
+.banner p a { color: #fff; border-bottom: 1px dotted #fff; }
 .module-wrapper { margin: 0 auto; height: auto; overflow: hidden; text-align: center; }
 .module { width: 300px; height: 400px; padding: 10px; margin: 20px -4px 20px 0; display: inline-block; text-align: left; vertical-align: top; }
 .module h2 { font: 700 20px/20px'Helvetica Neue', Helvetica, sans-serif; min-height: 48px; }
